@@ -1,5 +1,5 @@
 const apis = require('express').Router();
-const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
+const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid');
 
 
@@ -27,7 +27,7 @@ apis.post('/notes', (req, res) => {
 }
 });
 
-apis.delete('notes/:id', (req, res) => {
+apis.delete('/notes/:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
@@ -36,7 +36,7 @@ apis.delete('notes/:id', (req, res) => {
 
         writeToFile('./db/db.json', output);
 
-        res. json(`Item ${noteId} has been deleted`);
+        res.json(`Item ${noteId} has been deleted`);
     });
 
 });
