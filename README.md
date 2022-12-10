@@ -11,8 +11,6 @@ Build of a back end application that uses express.js, to manage a front end note
 * [Installation](#installation)
 * [Usage](#usage)
 * [Acceptance Criteria](#acceptance-criteria)
-* [Installation](#installation)
-* [Using the code](#using-the-code)
 * [Note Taking Application](#note-taking-application)
     * [Link to the deployed application](#link-to-the-deployed-application)
     * [Screenshot of the Note Taking Application](#screenshot-of-the-note-taking-application)
@@ -51,35 +49,11 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 The main challenge i faced with this application, was understanding the GET and POST responses and requests, I am also still getting used to using the node.js fs functionality. However, by putting together the back end for this note taking application I was able to practice these code dev skills and used online resources such as MDN to help better my understanding.
 
 
-## Installation
-
-Start by downloading the code from the repository, then load in VS code, open a terminal and make sure you are in the project folder.
-Initialise the code by typing into the terminal:
-```bash
-npm init -y
-npm i inquirer@8.2.4
-npm i jest
-```
-
-Then add *"start": "node index.js"* and add *jest* as the test command.
-
-
-## Using the code
-
-To get the Team profile generator code to run you will need to enter into the terminal:
-```bash
-node index.js
-```
- and you will be prompted with a series of questions, the answers to these questions will fill in the sections of the HTML required to auto generate a Team Profile HTML page. Add the end of the code you should see a 'Team Page Created' message logged and the generated HTML file will be added to the "dist" folder for you.
-
-I have fully commented the JavaScript files, to explain the flow and logic of the code, so that others can work on this and expand on it too.
-
-
 ## Note Taking Application
 
 ### Link to the deployed application
 
-<a href="https://enigmawoman.github.io/02-advanced-css/">Deployed Note Taking Application</a>
+<a href="https://quiet-hamlet-00529.herokuapp.com/">Deployed Note Taking Application</a>
 
 ### Screenshot of the Note Taking Application
 
