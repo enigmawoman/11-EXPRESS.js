@@ -21,7 +21,7 @@ Build of a back end application that uses express.js, to manage a front end note
 
 ## Description
 
-Generating JavaScript code, that when propmted to run by the user in the terminal a series of questions will be asked, of which the answers to, will auto-generate a an HTML displaying a Team Profile.
+Generating JavaScript code, that uses the express.js framework to create a backend api that will create and store notes via a front end web application.
 
 ## User Story
 
