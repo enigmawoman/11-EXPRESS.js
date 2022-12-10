@@ -1,3 +1,6 @@
+// using the fsUtils.js file to define how my readfromfile, writeto and readandappend functionality should work
+
+//requirements for this file to run
 const fs = require('fs');
 const util = require('util');
 
